@@ -98,8 +98,8 @@
           "slide-0": {
             "type": "image",
             "settings": {
-              "slide": "shopify:\/\/shop_images\/api.png",
-              "link": ""
+              "slide": "shopify:\/\/shop_images\/slideshow2.png",
+              "link": "https:\/\/www.thegioididong.com\/phu-kien"
             }
           },
           "slide-1": {
@@ -131,13 +131,13 @@
           "collection-list-0": {
             "type": "collection",
             "settings": {
-              "collection": ""
+              "collection": "iphone"
             }
           },
           "collection-list-1": {
             "type": "collection",
             "settings": {
-              "collection": ""
+              "collection": "samsung"
             }
           }
         },
@@ -174,7 +174,7 @@
         "type": "collection-rows",
         "settings": {
           "title": "Featured collection",
-          "home_featured_row": "",
+          "home_featured_row": "oppo",
           "grid": 4,
           "rows": 1,
           "product_show_saved_amount": true,
