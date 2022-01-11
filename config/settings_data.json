@@ -174,7 +174,7 @@
         "type": "collection-rows",
         "settings": {
           "title": "Featured collection",
-          "home_featured_row": "",
+          "home_featured_row": "oppo",
           "grid": 4,
           "rows": 1,
           "product_show_saved_amount": true,
