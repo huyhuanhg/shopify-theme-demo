@@ -131,13 +131,13 @@
           "collection-list-0": {
             "type": "collection",
             "settings": {
-              "collection": ""
+              "collection": "iphone"
             }
           },
           "collection-list-1": {
             "type": "collection",
             "settings": {
-              "collection": ""
+              "collection": "samsung"
             }
           }
         },
