@@ -28,7 +28,7 @@
 
   <script>
     console.log('product', {{ product|json }});
-                console.log('count', {{product.variants[0] | json}})
+                console.log('count', {{product.variants[0].barcode | json}})
   </script>
   
 <div class="grid" itemscope itemtype="http://schema.org/Product">
