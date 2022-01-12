@@ -29,9 +29,9 @@
   <script>
     console.log('product', {{ product|json }});
                 
-                {% if compare_at_price %}
+                {% if product.compare_at_price %}
 {% capture discount %}
-{{ compare_at_price | minus:price | times:100 | divided_by:compare_at_price }}%
+{{ product.compare_at_price | minus:product.price | times:100 | divided_by:product.compare_at_price }}%
 {% endcapture %}
 {{ discount }}
 {% endif %}
