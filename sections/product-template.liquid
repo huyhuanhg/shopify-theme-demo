@@ -28,6 +28,15 @@
 
   <script>
     console.log('product', {{ product|json }});
+                
+                {% if compare_at_price %}
+{% capture discount %}
+{{ compare_at_price | minus:price | times:100 | divided_by:compare_at_price }}%
+{% endcapture %}
+{{ discount }}
+{% endif %}
+                
+                console.log('discount', "{{discount}}");
   </script>
   
 <div class="grid" itemscope itemtype="http://schema.org/Product">
