@@ -1,5 +1,9 @@
 {% capture theme_settings_link %}<a href="/admin/themes/{{ theme.id }}/settings">{{ 'layout.footer.theme_settings' | t }}</a>{% endcapture %}
 
+
+      <script>
+        console.log('memnu", {{block.settings.menu | json}})
+      </script>
 <footer class="site-footer small--text-center" role="contentinfo">
   <div class="wrapper">
 
@@ -23,10 +27,6 @@
         {% when '100%' %}
           {%- assign block_width = 'one-whole' -%}
       {% endcase %}
-
-      <script>
-        console.log('memnu", {{block.settings.menu | json}})
-      </script>
     <div class="grid-item {{ block_width }}">
       {% if block.settings.title %}
         <h3>{{ block.settings.title | escape }}</h3>
