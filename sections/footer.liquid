@@ -24,7 +24,9 @@
           {%- assign block_width = 'one-whole' -%}
       {% endcase %}
 
-
+      <script>
+        console.log('memnu", {{block.settings.menu | json}})
+      </script>
     <div class="grid-item {{ block_width }}">
       {% if block.settings.title %}
         <h3>{{ block.settings.title | escape }}</h3>
