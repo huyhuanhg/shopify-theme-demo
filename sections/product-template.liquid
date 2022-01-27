@@ -228,7 +228,12 @@
 <script>
   var btnClearCart = document.getElementById('reset_cart');
   btnClearCart.onclick = () => {
-  	console.log('ahihi;')
+  	fetch(
+    	'/cart/clear.js',
+      {method: "POST"}
+    ).catch(e) {
+    	console.log(e.response)
+    }
   }
 </script>
 
