@@ -224,7 +224,13 @@
 
   </div>
 </div>
-  <button>Reset cart</button>
+  <button id="reset_cart">Clear cart</button>
+<script>
+  var btnClearCart = document.getElementById('reset_cart');
+  btnClearCart.onclick = () => {
+  	console.log('ahihi;')
+  }
+</script>
 
 {% if section.settings.related_products_enable %}
   {% assign grid_item_width = 'large--one-fifth medium--one-third small--one-half' %}
