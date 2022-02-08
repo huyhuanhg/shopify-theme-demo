@@ -9,7 +9,7 @@
   {% assign has_sidebar = true %}
 {% endif %}
 <script>
-  console.log('c', {{collection | json}})
+  console.log('c', {{collection.filters | json}})
     console.log('s', {{section.id | json}})
 </script>
 
