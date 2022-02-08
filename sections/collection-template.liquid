@@ -8,6 +8,9 @@
 {% if collection.all_tags.size > 0 and section.settings.enable_sidebar %}
   {% assign has_sidebar = true %}
 {% endif %}
+<script>
+  console.log({{collection | json}})
+</script>
 
 <div id="CollectionSection" data-section-id="{{ section.id }}" data-section-type="collection-template">
   <div class="grid grid-border">
