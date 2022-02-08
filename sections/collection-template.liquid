@@ -10,6 +10,7 @@
 {% endif %}
 <script>
   console.log({{collection | json}})
+    console.log('s', {{section.id | json}})
 </script>
 
 <div id="CollectionSection" data-section-id="{{ section.id }}" data-section-type="collection-template">
